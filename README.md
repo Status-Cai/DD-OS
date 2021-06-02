@@ -4,14 +4,17 @@
 
 Debian/Ubuntu:
 apt install -y xz-utils openssl gawk file wget
- 
+
+
 CentOS:
 yum install -y xz openssl gawk file wget
+
 
 DD系统，root密码运行前有提示：
 wget --no-check-certificate -O installos.sh https://starts.sh/cloud/docs/79installos.sh && bash installos.sh
 
 PS：只测试过 Debian10 和 Ubuntu18.04，Ubuntu20.04 几个版本
+
 
 
 #dd #linux #swap
