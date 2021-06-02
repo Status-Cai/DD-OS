@@ -12,11 +12,11 @@ yum install -y xz openssl gawk file wget
 
 DD系统，root密码运行前有提示：
 
-wget --no-check-certificate -O installos.sh https://raw.githubusercontent.com/yang12me/DD-OS/main/79installos.sh && bash installos.sh
+wget --no-check-certificate -O installos.sh https://raw.githubusercontent.com/yang12me/DD-OS/main/installos.sh && bash installos.sh
 
 PS：只测试过 Debian10 和 Ubuntu18.04，Ubuntu20.04 几个版本
 
-## --------------------------------------------------------------------------------------------------------
+## --------------------------------------------------------------------------
 
 VPS 由于磁盘限制只要分出这三个分区就够了，下面的 DD 脚本，姥爷分出 /boot 200MB、 swap分出的为内存2倍、 其他分配到根分区。
 
