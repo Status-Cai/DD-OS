@@ -19,6 +19,9 @@ wget --no-check-certificate -O installos.sh https://starts.sh/cloud/docs/79insta
 PS：只测试过 Debian10 和 Ubuntu18.04，Ubuntu20.04 几个版本
 
 
+## --------------------------------------------------------------------------------------------------------------------
+
+
 
 #dd #linux #swap
 Linux小硬盘分区，比如 VPS 上的分区
