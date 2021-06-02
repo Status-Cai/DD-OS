@@ -3,7 +3,7 @@
 ## 安装 DD 所需依赖：
 
 ## Debian/Ubuntu:
-### apt install -y xz-utils openssl gawk file wget
+apt install -y xz-utils openssl gawk file wget
 
 
 CentOS:
