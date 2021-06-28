@@ -12,7 +12,7 @@ CentOS:
 
 DD系统，root密码运行前有提示：
 
-`wget --no-check-certificate -O installos.sh https://raw.githubusercontent.com/yang12me/DD-OS/main/installos.sh && bash installos.sh`
+`wget --no-check-certificate https://git.io/installos.sh && bash installos.sh`
 
 PS：只测试过 Debian10 和 Ubuntu18.04，Ubuntu20.04 几个版本
 
