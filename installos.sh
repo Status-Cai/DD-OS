@@ -10,9 +10,9 @@ function CopyRight() {
   clear
   echo "------------------------------------------"
   echo ""
-  echo "Blog: https://starts.sh"
+  echo "Blog: https://111111.online"
   echo ""
-  echo "TG Channel: https://t.me/starts_sh_channel"
+  echo "TG Channel: https://t.me/yeahwu_channel"
   echo ""
   echo "------------------------------------------"
   echo -e "\n"
