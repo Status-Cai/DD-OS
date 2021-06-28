@@ -698,7 +698,7 @@ d-i partman-auto/disk string
 d-i partman-auto/method string regular
 d-i partman-auto/expert_recipe string         \
    boot-root ::                               \
-      40 50 200 ext4                          \
+      40 50 160 ext4                          \
          $primary{ } $bootable{ }             \
          method{ format } format{ }           \
          use_filesystem{ } filesystem{ ext4 } \
@@ -732,7 +732,8 @@ d-i finish-install/reboot_in_progress note
 d-i debian-installer/exit/reboot boolean true
 d-i preseed/late_command string	\
 sed -ri 's/^#?PermitRootLogin.*/PermitRootLogin yes/g' /target/etc/ssh/sshd_config; \
-sed -ri 's/^#?PasswordAuthentication.*/PasswordAuthentication yes/g' /target/etc/ssh/sshd_config;
+sed -ri 's/^#?PasswordAuthentication.*/PasswordAuthentication yes/g' /target/etc/ssh/sshd_config; \
+sed -ri 's/^#?PubkeyAuthentication.*/PubkeyAuthentication yes/g' /target/etc/ssh/sshd_config;
 EOF
 
 [[ "$loaderMode" != "0" ]] && AutoNet='1'
