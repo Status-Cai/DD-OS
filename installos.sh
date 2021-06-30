@@ -6,6 +6,22 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
+if [ -f "/usr/bin/apt-get" ];then
+	isDebian=`cat /etc/issue|grep Debian`
+	if [ "$isDebian" != "" ];then
+		apt-get install -y xz-utils openssl gawk file wget curl
+		apt install -y xz-utils openssl gawk file wget curl
+		sleep 3s
+	else
+		apt-get install -y xz-utils openssl gawk file wget curl
+		apt install -y xz-utils openssl gawk file wget curl
+		sleep 3s
+	fi
+else
+    yum install -y xz openssl gawk file wget curl
+    sleep 3s
+fi
+
 function CopyRight() {
   clear
   echo "------------------------------------------"
