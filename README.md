@@ -1,20 +1,9 @@
 ## DD-Linux OS
-
-安装 DD 所需依赖：
-
-Debian/Ubuntu:
-
-`apt install -y xz-utils openssl gawk file wget`
-
-CentOS:
-
-`yum install -y xz openssl gawk file wget`
+支持 CentOS、Ubuntu、Debian 几种发行版。
 
 DD系统，root密码运行前有提示：
 
 `wget --no-check-certificate https://git.io/installos.sh && bash installos.sh`
-
-PS：只测试过 Debian10 和 Ubuntu18.04，Ubuntu20.04 几个版本
 
 ***
 
